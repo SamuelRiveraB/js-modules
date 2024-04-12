@@ -31,7 +31,7 @@ console.log(fightModule.fight("ron", "harry"));
 // };
 
 // AMD Async Module Definition
-// defin(["module1", "module2"], function (module1Import, module2Import) {
+// define(["module1", "module2"], function (module1Import, module2Import) {
 //   var module1 = module1Import;
 //   var module1 = module2Import;
 
@@ -48,3 +48,11 @@ export function fight2(char1, char2) {
   const attack2 = Math.floor(Math.random() * char2.length);
   return attack1 > attack2 ? `${char1} wins` : `${char2} wins`;
 }
+
+// Top level awaits
+
+// let a;
+// if (1 == 2) {
+//   const { largeNumber } = await import("./script2");
+//   a = largeNumber;
+// }
