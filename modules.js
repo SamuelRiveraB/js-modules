@@ -49,7 +49,7 @@ export function fight2(char1, char2) {
   return attack1 > attack2 ? `${char1} wins` : `${char2} wins`;
 }
 
-// Top level awaits
+// Top level awaits and await import
 
 // let a;
 // if (1 == 2) {
