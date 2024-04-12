@@ -19,3 +19,24 @@ var fightModule = (function () {
 })();
 
 console.log(fightModule.fight("ron", "harry"));
+
+// CommonJS
+// var module1 = require("module1");
+// var module2 = require("module2");
+
+// function fight2() {}
+
+// module1.exports = {
+//   fight: fight2,
+// };
+
+// AMD Async Module Definition
+// defin(["module1", "module2"], function (module1Import, module2Import) {
+//   var module1 = module1Import;
+//   var module1 = module2Import;
+
+//   function dance() {}
+//   return {
+//     dance: dance,
+//   };
+// });
